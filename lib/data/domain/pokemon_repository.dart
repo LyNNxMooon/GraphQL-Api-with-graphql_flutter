@@ -1,6 +1,8 @@
-import 'package:graphql_api_with_graphqlflutter/network/response/pokemon_response.dart';
+import 'package:flutter/material.dart';
+import 'package:graphql_api_with_graphqlflutter/data/vo/pokemon_vo.dart';
+
 
 abstract class PokemonRepository {
 
-  Future<PokemonResponse> fetchAllPokemons ();
+  Future<List<PokemonVO>> fetchAllPokemons (BuildContext context);
 }
