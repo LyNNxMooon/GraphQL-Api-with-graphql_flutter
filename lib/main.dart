@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:graphql_api_with_graphqlflutter/graphql/graphql_client.dart';
+import 'package:graphql_api_with_graphqlflutter/network/graphql/graphql_client.dart';
 import 'package:graphql_api_with_graphqlflutter/screens/home_screen.dart';
 import 'package:graphql_flutter/graphql_flutter.dart';
 
 void main() async {
-  await initHiveForFlutter();
+  await initHiveForFlutter(); // for caching
   runApp(const MyApp());
 }
 

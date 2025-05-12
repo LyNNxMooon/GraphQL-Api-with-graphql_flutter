@@ -1,7 +1,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:graphql_api_with_graphqlflutter/data/vo/pokemon_vo.dart';
-import 'package:graphql_api_with_graphqlflutter/graphql/queries/pokemon_query.dart';
+import 'package:graphql_api_with_graphqlflutter/network/graphql/queries/pokemon_query.dart';
 import 'package:graphql_flutter/graphql_flutter.dart';
 
 class HomeScreen extends StatefulWidget {
