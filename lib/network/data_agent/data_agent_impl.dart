@@ -25,7 +25,7 @@ class DataAgentImpl extends DataAgent {
       final result =
           await client.query(QueryOptions(document: gql(getPokemons)));
 
-      return PokemonResponse.fromJson(result.data);
+      return PokemonResponse.fromJson(result.data ?? {});
     } on Exception catch (error) {
       return Future.error(apiErrorsConfig.throwExceptionForGetPokemons(error));
     }

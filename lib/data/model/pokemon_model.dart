@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:graphql_api_with_graphqlflutter/data/domain/pokemon_repository.dart';
+import 'package:graphql_api_with_graphqlflutter/domain/pokemon_repository.dart';
 import 'package:graphql_api_with_graphqlflutter/data/vo/pokemon_vo.dart';
 import 'package:graphql_api_with_graphqlflutter/network/data_agent/data_agent.dart';
 import 'package:graphql_api_with_graphqlflutter/network/data_agent/data_agent_impl.dart';
